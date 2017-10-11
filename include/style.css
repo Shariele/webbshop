@@ -1,0 +1,172 @@
+html{
+
+}
+
+body { 
+    background-image: url("../img/blue-backgrounds-5.jpg");
+    margin: 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: white;
+}
+/* mouse over link */
+a:hover {
+    color: lightgrey;
+}
+.container{
+    margin-top:20px;
+    max-width: 1000px !important;
+    /*Skapar en halvt genomskinnlig mörk bakgrund*/
+    background: rgba(25, 25, 25, .25);
+    padding: 20px;
+}
+
+/*Navbar-top*/
+.navbar {
+    height:100%;
+    font-size:12px;
+    width:100%;
+    color:black;
+    background-color: white;
+    margin-bottom: 0px;
+}
+.navbar a{
+    color:black;
+}
+.navbar-nav>li>a{
+    z-index: 1;
+}
+.navbar-default .navbar-nav>li>a {
+    color:black;
+}
+
+/*Innehåll*/
+.indexProducts{
+    display: inline-block;
+}
+
+
+.legend{
+    color:#2A64B3;
+}
+.collapse.in{
+    position: relative;
+}
+
+.shopping_cart{
+    z-index: 1000;
+    position: ;
+    width: 500px;
+}
+
+/*Add hover effect to menu item*/
+
+
+/**
+**/
+/*Sidomenyn till vänster*/
+.ul_under_categories li{
+    display: none;
+}
+/**
+**/
+/*Innehåll*/
+.input-group {
+    margin-top:30px
+}
+.buyMoreInfo{
+    display: none;
+}
+
+.img-responsive{
+    margin: 0px auto;
+}
+.clickable-row{
+    cursor:pointer;
+}
+.link-cursor{
+    cursor:pointer;
+}
+/**
+**/
+/*Breakpoints*/
+
+@media (max-width: 550px){
+    .indexProducts{
+
+    }
+}
+
+/*Skapar en breakpoint för navbaren vid 1000px*/
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+@media (max-width:767px){
+    .buyMoreInfo{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .productsProduct{
+        margin-left:0px;
+        width:none; 
+        height:none;
+    }
+    .currentPassword{
+        margin-bottom: 20px;
+    }
+
+}
+@media (min-width:767px){
+    .productsProduct{
+    }
+    .itemImage{
+    }
+    .img-rounded{
+        width: 100%;
+        height:100%;
+    }
+}
+@media (max-width:990px){
+    
+}
+
+
